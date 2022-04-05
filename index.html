@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul class="navbar__links">
+            <li><a class="navbar__link" href="#">Home</a></li>
+            <li><a class="navbar__link" href="#">About</a></li>
+            <li><a class="navbar__link" href="#">Projects</a></li>
+            <li><a class="navbar__link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- /Navbar -->
+    <!-- Hero -->
+    <header class="hero">
+        <main class="hero__container">
+            <h1 class="hero__developer-presentation">Gustavo.</h1>
+            <p class="hero__developer-scala">Full-Stack Developer.</p>
+            <div class="hero__developer-photo-container">
+                <img class="hero__developer-photo" src="./img/personal_photo.png" alt="Personal Photo">
+            </div>
+        </main>
+    </header>
+    <!-- /Hero -->
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="contact__contact-me-container">
+            <h3 class="contact__contact-me">Contact Me</h3>
+            <hr class="contact__divider">
+            <div class="contact__information-item">
+                <i class="icon--md icon--white fa fa-map-marker fa-fw"></i>
+                <p class="contact__information">Perú, Perú</p>
+            </div>
+            <div class="contact__information-item">
+                <i class="icon--md icon--white fa fa-phone fa-fw"></i>
+                <p class="contact__information">Phone: +66 999666279</p>
+            </div>
+            <div class="contact__information-item">
+                <i class="icon--md icon--white fa fa-envelope fa-fw"></i>
+                <p class="contact__information">Email: gopoma@gmail.com</p>
+            </div>
+        </div>
+        <div class="contact__contact-form-container">
+            <p class="contact__slogan">Let's get in touch. Send me a message:</p>
+            <form class="contact__contact-form" action="https://formspree.io/f/mvolbywd" method="POST">
+                <input class="contact__contact-form-input" type="text" name="name" placeholder="Name">
+                <input class="contact__contact-form-input" type="email" name="email" placeholder="Email">
+                <input class="contact__contact-form-input" type="text" name="subject" placeholder="Subject">
+                <input class="contact__contact-form-input" type="text" name="message" placeholder="Message">
+                <button class="contact__btn-submit" type="submit">
+                    <!-- TODO: Add send icon to this submit button -->
+                    <i class="icon icon--sm icon--black fa fa-paper-plane"></i>
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- /Contact -->
+    <footer>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <p>Powered by me</p>
+        </div>
+    </footer>
+</body>
+</html>

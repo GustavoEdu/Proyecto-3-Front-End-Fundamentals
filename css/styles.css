@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.ttf');
+    font-weight: bold;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+:root {
+    --just-black: #000;
+    --just-white: #FFF;
+    --dark-gray: #757575;
+    --medium-gray: #616161;
+    --soft-gray: #F1F1F1;
+}
+body {
+    height: 45rem;
+    background-color: var(--just-black);
+}
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.60;
+}
+.navbar__links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navbar__link {
+    font-size: 0.75em; 
+    display: inline-block;
+    padding: 0.45rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--just-white);
+}
+/* /Navbar */
+/* Hero */
+.hero {
+    margin-top: 1.8rem;
+}
+.hero__container {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.hero__developer-presentation {
+    margin-top: 1.75rem;
+    font-size: 3em;
+    text-align: center;
+    color: var(--just-white);
+}
+.hero__developer-scala {
+    margin-top: 1rem;
+    font-size: 0.95em;
+    text-align: center;
+    color: var(--just-white);
+}
+.hero__developer-photo-container {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__developer-photo {
+    width: 80%;
+}
+/* /Hero */
+/* Contact */
+.contact {
+    padding: 1rem;
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+}
+.contact__contact-me {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--just-white);
+}
+.contact__divider {
+    width: 13rem;
+    margin: 1rem 0;
+}
+.contact__information-item {
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+.contact__information {
+    font-size: 0.95em;
+    color: var(--dark-gray);
+}
+.contact__contact-form-container {
+    background-color: gold;
+}
+
+/* /Contact */
+/* Icons */
+.icon--sm {
+    font-size: 1.08rem;
+}
+.icon--md {
+    font-size: 2em;
+}
+.icon--white {
+    color: var(--just-white);
+}
+.icon--black {
+    color: var(--just-black);
+}
+/* /Icons */

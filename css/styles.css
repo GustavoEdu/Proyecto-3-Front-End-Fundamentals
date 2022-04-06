@@ -26,11 +26,21 @@
     --medium-gray: #616161;
     --soft-gray: #F1F1F1;
     --main-gray: #212121;
+    --regular-font-size: 1.25em;
+    --medium-font-size: 1.5em;
+    --large-font-size: 2.25em;
 }
 body {
-    height: 45rem;
+    height: 120rem;
     background-color: var(--just-black);
 }
+/* Helpers */
+.wrapper {
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/* /Helpers */
 /* Navbar */
 .navbar {
     position: fixed;
@@ -57,61 +67,66 @@ body {
 /* Hero */
 .hero {
     margin-top: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .hero__container {
-    padding: 0 1rem;
     display: flex;
+    gap: 1.2rem;
     flex-direction: column;
 }
 .hero__developer-presentation {
-    margin-top: 1.75rem;
-    font-size: 3em;
+    font-size: 2.85em;
     text-align: center;
     color: var(--just-white);
 }
 .hero__developer-scala {
-    margin-top: 1rem;
-    font-size: 0.95em;
+    font-size: var(--regular-font-size);
     text-align: center;
     color: var(--just-white);
 }
 .hero__developer-photo-container {
-    margin-top: 0.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .hero__developer-photo {
-    width: 80%;
+    width: 75%;
+    max-width: 576px;
 }
 /* /Hero */
 /* About */
 .about {
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 /* Skills-Section */
 .skills-section__title {
+    margin-bottom: 1.2rem;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0.45rem;
     border-bottom: 1px solid var(--just-white);
-    font-size: 1.75em;
+    font-size: var(--large-font-size);
+    text-align: center;
     color: var(--just-white);
 }
 .skills-section__grid {
-    margin-top: 1rem;
     display: grid;
-    gap: 0.25rem;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 0.45rem;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 }
 .skills-section__skill-item {
-    padding: 0.5rem;
+    padding: 0.8rem;
     display: flex;
+    gap: 0.45rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--main-gray);
 }
 .skills-section__skill {
-    font-size: 1.08em;
+    font-size: var(--regular-font-size);
     text-align: center;
     color: var(--just-white);
 }
@@ -119,17 +134,20 @@ body {
 /* /About */
 /* Projects */
 .projects-section {
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 .projects-section__title {
+    max-width: 640px;
+    margin-bottom: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0.45rem;
     border-bottom: 1px solid var(--just-white);
-    font-size: 1.75em;
+    font-size: var(--large-font-size);
     text-align: center;
     color: var(--just-white);
 }
 .projects-section__grid {
-    margin-top: 1.2rem;
     display: grid;
     gap: 1.2rem;
     grid-template-columns: repeat(1, 1fr);
@@ -141,11 +159,12 @@ body {
 }
 .project__img {
     width: 100%;
+    height: 28vh;
 }
 .project__title {
-    margin-top: 0.6rem;
-    margin-bottom: 1rem;
-    font-size: 1.2em;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    font-size: var(--medium-font-size);
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -160,13 +179,14 @@ body {
     flex-direction: column;
 }
 .contact__contact-me {
-    font-size: 1.75em;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid var(--just-white);
+    font-size: var(--large-font-size);
     font-weight: bold;
+    text-align: center;
     color: var(--just-white);
-}
-.contact__divider {
-    width: 13rem;
-    margin: 0.5rem 0;
 }
 .contact__contact-form-container {
     display: flex;
@@ -241,3 +261,21 @@ body {
     color: var(--just-black);
 }
 /* /Icons */
+/* Helpers */
+@media screen and (min-width: 680px) {
+    .projects-section__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .projects-section__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* /Helpers */

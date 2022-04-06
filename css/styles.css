@@ -25,6 +25,7 @@
     --dark-gray: #757575;
     --medium-gray: #616161;
     --soft-gray: #F1F1F1;
+    --main-blue: #45567D;
 }
 body {
     height: 45rem;
@@ -84,9 +85,45 @@ body {
     width: 80%;
 }
 /* /Hero */
+/* Projects */
+.projects-section {
+    padding: 2rem 1rem;
+}
+.projects-section__title {
+    padding: 0.45rem;
+    border-bottom: 1px solid var(--just-white);
+    font-size: 1.75em;
+    text-align: center;
+    color: var(--just-white);
+}
+.projects-section__grid {
+    --columns: 1;
+    margin-top: 1.2rem;
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: repeat(--columns, 1fr);
+}
+.project {
+    flex-direction: column;
+    text-decoration: none;
+    background-color: var(--main-blue);
+}
+.project__img {
+    width: 100%;
+}
+.project__title {
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: var(--just-white);
+}
+/* /Projects */
 /* Contact */
 .contact {
-    padding: 1rem;
+    padding: 2rem 1rem;
     display: flex;
     gap: 1.25rem;
     flex-direction: column;
@@ -111,15 +148,66 @@ body {
     color: var(--dark-gray);
 }
 .contact__contact-form-container {
-    background-color: gold;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
 }
-
+.contact__slogan {
+    font-size: 0.95em;
+    color: var(--dark-gray);
+}
+/* Contact-Form */
+.contact-form {
+    display: flex;
+    gap: 0.75rem;
+    flex-direction: column;
+}
+.contact-form__input {
+    font-size: 0.95em;
+    padding: 1rem 0.5rem;
+    border: none;
+}
+.contact-form__btn-submit {
+    width: max-content;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    background-color: var(--soft-gray);
+}
+/* /Contact-Form */
+.contact__error-message {
+    padding: 1rem;
+    font-size: 0.95em;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    background-color: #f8d7da;
+}
 /* /Contact */
+/* Footer */
+.footer {
+    padding: 2rem 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.footer__social-media-container {
+    display: flex;
+    gap: 0.45rem;
+}
+.footer__license {
+    font-size: 0.95em;
+    color: var(--dark-gray);
+}
+/* /Footer */
 /* Icons */
 .icon--sm {
-    font-size: 1.08rem;
+    font-size: 1.08em;
 }
 .icon--md {
+    font-size: 1.5em;
+}
+.icon--lg {
     font-size: 2em;
 }
 .icon--white {

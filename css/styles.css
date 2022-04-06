@@ -25,7 +25,7 @@
     --dark-gray: #757575;
     --medium-gray: #616161;
     --soft-gray: #F1F1F1;
-    --main-blue: #45567D;
+    --main-gray: #212121;
 }
 body {
     height: 45rem;
@@ -85,6 +85,38 @@ body {
     width: 80%;
 }
 /* /Hero */
+/* About */
+.about {
+    padding: 2rem 1rem;
+}
+/* Skills-Section */
+.skills-section__title {
+    padding: 0.45rem;
+    border-bottom: 1px solid var(--just-white);
+    font-size: 1.75em;
+    color: var(--just-white);
+}
+.skills-section__grid {
+    margin-top: 1rem;
+    display: grid;
+    gap: 0.25rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.skills-section__skill-item {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-gray);
+}
+.skills-section__skill {
+    font-size: 1.08em;
+    text-align: center;
+    color: var(--just-white);
+}
+/* /Skills-Section */
+/* /About */
 /* Projects */
 .projects-section {
     padding: 2rem 1rem;
@@ -97,16 +129,15 @@ body {
     color: var(--just-white);
 }
 .projects-section__grid {
-    --columns: 1;
     margin-top: 1.2rem;
     display: grid;
     gap: 1.2rem;
-    grid-template-columns: repeat(--columns, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 .project {
     flex-direction: column;
     text-decoration: none;
-    background-color: var(--main-blue);
+    background-color: var(--main-gray);
 }
 .project__img {
     width: 100%;
@@ -125,27 +156,17 @@ body {
 .contact {
     padding: 2rem 1rem;
     display: flex;
-    gap: 1.25rem;
+    gap: 1rem;
     flex-direction: column;
 }
 .contact__contact-me {
-    font-size: 2em;
+    font-size: 1.75em;
     font-weight: bold;
     color: var(--just-white);
 }
 .contact__divider {
     width: 13rem;
-    margin: 1rem 0;
-}
-.contact__information-item {
-    padding: 0.5rem;
-    display: flex;
-    gap: 0.75rem;
-    align-items: center;
-}
-.contact__information {
-    font-size: 0.95em;
-    color: var(--dark-gray);
+    margin: 0.5rem 0;
 }
 .contact__contact-form-container {
     display: flex;
@@ -209,6 +230,9 @@ body {
 }
 .icon--lg {
     font-size: 2em;
+}
+.icon--xl {
+    font-size: 3.5em;
 }
 .icon--white {
     color: var(--just-white);

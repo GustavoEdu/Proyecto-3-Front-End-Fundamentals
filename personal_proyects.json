@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Geometry Dash Browser",
+        "banner": "./img/geometry_dash_api.png",
+        "description": "Consisted of consuming data from the Geometry Dash API through Fetch API and showing the results to user in a friendly interface",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "link": "https://github.com/GustavoEdu/Proyecto-3-Front-End-Fundamentals",
+        "repository": "https://github.com/GustavoEdu/Proyecto-3-Front-End-Fundamentals"
+    },
+    {
+        "title": "Sideral Carrion's Landing Page",
+        "banner": "./img/sideral_carrion_university_landing_page.png",
+        "description": "Sideral jaaa",
+        "skills": [
+            "HTML",
+            "CSS"
+        ],
+        "link": "https://github.com/GustavoEdu/Proyecto-2-Front-End-Fundamentals",
+        "repository": "https://github.com/GustavoEdu/Proyecto-2-Front-End-Fundamentals"
+    },
+    {
+        "title": "Tic Tac Toe Game",
+        "banner": "./img/tic_tac_toe.png",
+        "description": "Amongus",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "link": "https://github.com/GustavoEdu/Proyecto-3-Coding-Fundamentals-",
+        "repository": "https://github.com/GustavoEdu/Proyecto-3-Coding-Fundamentals-"
+    }
+]

@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gustavo</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <script defer src="./js/index.js"></script>
+    <script type="module" src="./js/index.js"></script>
 </head>
 <body>
+    <!-- Personal-Proyect-Modal -->
+    <div id="modal" class="modal">
+        <div id="personalProjectContent" class="modal__content"></div>
+    </div>
+    <!-- /Personal-Proyect-Modal -->
     <!-- Navbar -->
     <nav class="navbar">
         <ul class="navbar__links">
@@ -51,7 +56,7 @@
                     <div class="skills-section__skill-item">
                         <i class="icon icon--xl icon--white devicon-javascript-plain"></i>
                         <h4 class="skills-section__skill">JavaScript</>
-                    </div>
+                        </div>
                     <div class="skills-section__skill-item">
                         <i class="icon icon--xl icon--white devicon-nodejs-plain"></i>
                         <h4 class="skills-section__skill">NodeJS</>
@@ -67,15 +72,15 @@
                     <div class="skills-section__skill-item">
                         <i class="icon icon--xl icon--white devicon-perl-plain"></i>
                         <h4 class="skills-section__skill">Perl</>
-                    </div>
-                    <div class="skills-section__skill-item">
-                        <i class="icon icon--xl icon--white devicon-mysql-plain"></i>
-                        <h4 class="skills-section__skill">MySQL</>
-                    </div>
-                    <div class="skills-section__skill-item">
-                        <i class="icon icon--xl icon--white devicon-git-plain"></i>
+                        </div>
+                        <div class="skills-section__skill-item">
+                            <i class="icon icon--xl icon--white devicon-mysql-plain"></i>
+                            <h4 class="skills-section__skill">MySQL</>
+                            </div>
+                            <div class="skills-section__skill-item">
+                                <i class="icon icon--xl icon--white devicon-git-plain"></i>
                         <h4 class="skills-section__skill">Git</>
-                    </div>
+                        </div>
                 </div>
             </section>
         </div>
@@ -85,20 +90,7 @@
     <section id="projects" class="projects-section">
         <div class="wrapper">
             <h3 class="projects-section__title">These are some of my projects</h3>
-            <div class="projects-section__grid">
-                <a class="project" target="_blank" href="https://github.com/GustavoEdu/Proyecto-3-Coding-Fundamentals-">
-                    <img class="project__img" src="./img/geometry_dash_api.png" alt="Geometry Dash API">
-                    <p class="project__title">Geometry Dash Browser</p>
-                </a>
-                <a class="project" target="_blank" href="https://github.com/GustavoEdu/Proyecto-2-Front-End-Fundamentals">
-                    <img class="project__img" src="./img/sideral_carrion_university_landing_page.png" alt="Tic Tac Toe">
-                    <p class="project__title">Sideral Carrion University Landing Page</p>
-                </a>
-                <a class="project" target="_blank" href="https://github.com/GustavoEdu/Proyecto-2-Coding-Fundamentals">
-                    <img class="project__img" src="./img/tic_tac_toe.png" alt="Tic Tac Toe">
-                    <p class="project__title">Tic Tac Toe Game</p>
-                </a>
-            </div>
+            <div id="personalProyectsSection" class="projects-section__grid"></div>
         </div>
     </section>
     <!-- /Projects -->
@@ -114,7 +106,7 @@
                     <input class="contact-form__input" type="text" name="subject" placeholder="Subject" required>
                     <input class="contact-form__input" type="text" name="message" placeholder="Message" required>
                     <button class="contact-form__btn-submit" type="submit">
-                        <i class="icon icon--sm icon--black fa fa-paper-plane"></i>
+                        <i class="icon icon--sm icon--black fa-solid fa-paper-plane"></i>
                         Send Message
                     </button>
                 </form>
@@ -128,16 +120,16 @@
         <div class="wrapper">
             <div class="footer__social-media-container">
                 <a href="https://www.linkedin.com/in/gustavo-eduardo-ordo%C3%B1o-poma-69a175227/" target="_blank">
-                    <i class="icon icon--md icon--white fab fa-linkedin"></i>
+                    <i class="icon icon--md icon--white fa-brands fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/GustavoEdu" target="_blank">
-                    <i class="icon icon--md icon--white fab fa-github"></i>
+                    <i class="icon icon--md icon--white fa-brands fa-github"></i>
                 </a>
                 <a href="https://twitter.com/gopoma79" target="_blank">
-                    <i class="icon icon--md icon--white fab fa-twitter"></i>
+                    <i class="icon icon--md icon--white fa-brands fa-twitter"></i>
                 </a>
                 <a href="https://www.youtube.com/channel/UCshv5DWeZCErH8kOlJ36uYQ" target="_blank">
-                    <i class="icon icon--md icon--white fab fa-youtube"></i>
+                    <i class="icon icon--md icon--white fa-brands fa-youtube"></i>
                 </a>
             </div>
             <div class="footer__license-container">

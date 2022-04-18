@@ -1,11 +1,27 @@
 [
     {
+        "title": "TutoEasy Messenger",
+        "banner": "./img/tutoeasy_messenger.png",
+        "description": "Chat App with NodeJS, Express and MySQL.",
+        "skills": [
+            "Arquitecture Model View Controller (MVC)",
+            "NodeJS",
+            "Express",
+            "MySQL",
+            "Sequelize ORM",
+            "CSS's BEM Methodology"
+        ],
+        "link": "https://github.com/gopoma/Proyecto-3-Back-End-Fundamentals",
+        "repository": "https://github.com/gopoma/Proyecto-3-Back-End-Fundamentals"
+    },
+    {
         "title": "Geometry Dash Browser",
         "banner": "./img/geometry_dash_api.png",
         "description": "Consisted of consuming data from the Geometry Dash API through Fetch API and showing the results to user in a friendly interface",
         "skills": [
             "HTML",
             "CSS",
+            "CSS's BEM Methodology",
             "JavaScript"
         ],
         "link": "https://github.com/GustavoEdu/Proyecto-3-Front-End-Fundamentals",
@@ -14,10 +30,11 @@
     {
         "title": "Sideral Carrion's Landing Page",
         "banner": "./img/sideral_carrion_university_landing_page.png",
-        "description": "Sideral jaaa",
+        "description": "Beautiful Landing Page",
         "skills": [
             "HTML",
-            "CSS"
+            "CSS",
+            "CSS's OOCSS Methology"
         ],
         "link": "https://github.com/GustavoEdu/Proyecto-2-Front-End-Fundamentals",
         "repository": "https://github.com/GustavoEdu/Proyecto-2-Front-End-Fundamentals"
@@ -25,10 +42,11 @@
     {
         "title": "Tic Tac Toe Game",
         "banner": "./img/tic_tac_toe.png",
-        "description": "Amongus",
+        "description": "Tic Tac Toe Game",
         "skills": [
             "HTML",
             "CSS",
+            "CSS's BEM Methodology",
             "JavaScript"
         ],
         "link": "https://github.com/GustavoEdu/Proyecto-3-Coding-Fundamentals-",

@@ -9,7 +9,8 @@
             "Express",
             "MySQL",
             "Sequelize ORM",
-            "CSS's BEM Methodology"
+            "CSS's BEM Methodology",
+            "Fetch API"
         ],
         "link": "https://github.com/gopoma/Proyecto-3-Back-End-Fundamentals",
         "repository": "https://github.com/gopoma/Proyecto-3-Back-End-Fundamentals"
@@ -22,9 +23,10 @@
             "HTML",
             "CSS",
             "CSS's BEM Methodology",
-            "JavaScript"
+            "JavaScript",
+            "Fetch API"
         ],
-        "link": "https://github.com/GustavoEdu/Proyecto-3-Front-End-Fundamentals",
+        "link": "https://gd-browser-beta.vercel.app/",
         "repository": "https://github.com/GustavoEdu/Proyecto-3-Front-End-Fundamentals"
     },
     {
@@ -36,7 +38,7 @@
             "CSS",
             "CSS's OOCSS Methology"
         ],
-        "link": "https://github.com/GustavoEdu/Proyecto-2-Front-End-Fundamentals",
+        "link": "https://usideralcarrion.vercel.app/",
         "repository": "https://github.com/GustavoEdu/Proyecto-2-Front-End-Fundamentals"
     },
     {
@@ -49,7 +51,7 @@
             "CSS's BEM Methodology",
             "JavaScript"
         ],
-        "link": "https://github.com/GustavoEdu/Proyecto-3-Coding-Fundamentals-",
+        "link": "https://tictactoe-taupe.vercel.app/",
         "repository": "https://github.com/GustavoEdu/Proyecto-3-Coding-Fundamentals-"
     }
 ]

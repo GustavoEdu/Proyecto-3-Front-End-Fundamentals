@@ -1,10 +1,58 @@
 [
     {
+        "title": "drugstore-app",
+        "banner": "./img/drugstore_app.png",
+        "description": "Consisted of an inventory management application for a local drugstore.",
+        "skills": [
+            "Django",
+            "Django REST Framework",
+            "PostgreSQL",
+            "Mailtrap",
+            "JSON Web Tokens",
+            "HttpOnly Cookies",
+            "openpyxl (Excel Generator)",
+            "Swagger",
+            "ReDoc",
+            "Heroku",
+            "Angular",
+            "Angular Material",
+            "Bootstrap",
+            "SweetAlert2",
+            "Vercel"
+        ],
+        "link": "https://drugstore-app-frontend.vercel.app",
+        "repository": "https://github.com/gopoma/proyecto-final-pweb-2"
+    },
+    {
+        "title": "MessengerBoy",
+        "banner": "./img/messengerboy.png",
+        "description": "Consisted of a chat application for the TutoEasy Social Media.",
+        "skills": [
+            "Service-Oriented Architecture (SOA)",
+            "NodeJS",
+            "Express",
+            "MongoDB",
+            "Mongoose",
+            "JSON Web Tokens",
+            "HttpOnly Cookies",
+            "Passport",
+            "Socket.io",
+            "busboy",
+            "Cloudinary",
+            "Heroku",
+            "Vanilla JavaScript",
+            "TailwindCSS",
+            "Vercel"
+        ],
+        "link": "https://messenger-boy.vercel.app",
+        "repository": "https://github.com/gopoma/chat-app-api"
+    },
+    {
         "title": "TutoEasy Messenger",
         "banner": "./img/tutoeasy_messenger.png",
         "description": "Chat App with NodeJS, Express and MySQL.",
         "skills": [
-            "Arquitecture Model View Controller (MVC)",
+            "Model View Controller Arquitecture (MVC)",
             "NodeJS",
             "Express",
             "MySQL",

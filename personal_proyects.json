@@ -1,5 +1,32 @@
 [
     {
+        "title": "MessengerBoy",
+        "banner": "./img/messengerboy.png",
+        "description": "Consisted of a chat application for the TutoEasy Social Media.",
+        "skills": [
+            "Service-Oriented Architecture (SOA)",
+            "NodeJS",
+            "Express",
+            "MongoDB",
+            "Mongoose",
+            "JSON Web Tokens",
+            "HttpOnly Cookies",
+            "Passport",
+            "Socket.io",
+            "busboy",
+            "Cloudinary",
+            "Heroku",
+            "HTML",
+            "CSS",
+            "TailwindCSS",
+            "Vanilla JavaScript",
+            "Fetch API",
+            "Vercel"
+        ],
+        "link": "https://messenger-boy.vercel.app",
+        "repository": "https://github.com/gopoma/chat-app-api"
+    },
+    {
         "title": "drugstore-app",
         "banner": "./img/drugstore_app.png",
         "description": "Consisted of an inventory management application for a local drugstore.",
@@ -24,9 +51,9 @@
         "repository": "https://github.com/gopoma/proyecto-final-pweb-2"
     },
     {
-        "title": "MessengerBoy",
-        "banner": "./img/messengerboy.png",
-        "description": "Consisted of a chat application for the TutoEasy Social Media.",
+        "title": "TheCubicle",
+        "banner": "./img/thecubicle.png",
+        "description": "Consisted of an Cube Ecommerce application inspired by TheCubicle",
         "skills": [
             "Service-Oriented Architecture (SOA)",
             "NodeJS",
@@ -36,32 +63,17 @@
             "JSON Web Tokens",
             "HttpOnly Cookies",
             "Passport",
-            "Socket.io",
-            "busboy",
-            "Cloudinary",
+            "Stripe",
             "Heroku",
+            "HTML",
+            "CSS",
+            "CSS's BEM Methodology",
             "Vanilla JavaScript",
-            "TailwindCSS",
+            "Fetch API",
             "Vercel"
         ],
-        "link": "https://messenger-boy.vercel.app",
-        "repository": "https://github.com/gopoma/chat-app-api"
-    },
-    {
-        "title": "TutoEasy Messenger",
-        "banner": "./img/tutoeasy_messenger.png",
-        "description": "Chat App with NodeJS, Express and MySQL.",
-        "skills": [
-            "Model View Controller Arquitecture (MVC)",
-            "NodeJS",
-            "Express",
-            "MySQL",
-            "Sequelize ORM",
-            "CSS's BEM Methodology",
-            "Fetch API"
-        ],
-        "link": "https://github.com/gopoma/Proyecto-3-Back-End-Fundamentals",
-        "repository": "https://github.com/gopoma/Proyecto-3-Back-End-Fundamentals"
+        "link": "https://cube-ecommerce-frontend.vercel.app",
+        "repository": "https://github.com/gopoma/Cube-Ecommerce"
     },
     {
         "title": "Geometry Dash Browser",
@@ -90,7 +102,7 @@
         "repository": "https://github.com/GustavoEdu/Proyecto-2-Front-End-Fundamentals"
     },
     {
-        "title": "Tic Tac Toe Game",
+        "title": "Ta-te-tsi Game",
         "banner": "./img/tic_tac_toe.png",
         "description": "Tic Tac Toe Game",
         "skills": [

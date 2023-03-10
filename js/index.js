@@ -15,7 +15,7 @@ const fillPersonalProyects = async function() {
         const personalProyectArticle = document.createElement("article");
         personalProyectArticle.classList.add("project");
         personalProyectArticle.innerHTML = `
-        <img class="project__img injectable" src="${personalProyect.banner}" alt="Geometry Dash API">
+        <img class="project__img injectable" src="${personalProyect.banner}" alt="${personalProyect.title}">
         <div class="project__title-container injectable">
             <span class="project__title-wrapper injectable">&lt;</span><span class="project__title injectable">${personalProyect.title}</span><span class="project__title-wrapper injectable">/&gt;</span>
         </div>
@@ -27,7 +27,7 @@ const fillPersonalProyects = async function() {
             targettedNode.dataset.banner = personalProyect.banner;
             targettedNode.dataset.description = personalProyect.description;
             targettedNode.dataset.skills = JSON.stringify(personalProyect.skills);
-            targettedNode.dataset.link = personalProyect.link;
+            targettedNode.dataset.link = personalProyect.link ?? "";
             targettedNode.dataset.repository = personalProyect.repository;
         });
     });
@@ -56,9 +56,11 @@ personalProyectsSection.addEventListener("click", evt => {
                 ${skillsContent}
             </div>
             <div class="personal-project__links">
-                <a class="personal-project__value personal-project__link" href="${link}" target="_blank">
-                    <i class="icon icon--md icon--white fa-solid fa-link"></i>
-                </a>
+                ${link && 
+                    `<a class="personal-project__value personal-project__link" href="${link}" target="_blank">
+                        <i class="icon icon--md icon--white fa-solid fa-link"></i>
+                    </a>`
+                }
                 <a class="personal-project__value personal-project__link" href="${repository}" target="_blank">
                     <i class="icon icon--md icon--white fa-solid fa-code"></i>
                 </a>

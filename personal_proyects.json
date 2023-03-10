@@ -1,5 +1,30 @@
 [
     {
+        "title": "ChapiPharm",
+        "banner": "./img/chapipharm.png ",
+        "description": "Developed an E-commerce with solid user authentication through email validation that implements Stripe's payment gateway, this was an extension of drugstore-app.",
+        "skills": [
+            "Service-Oriented Architecture (SOA)",
+            "NodeJS",
+            "Express",
+            "MongoDB",
+            "Mongoose",
+            "JSON Web Tokens",
+            "HttpOnly Cookies",
+            "Passport",
+            "Nodemailer",
+            "Handlebars",
+            "Multer",
+            "Google Cloud Storage",
+            "Google App Engine",
+            "Angular",
+            "Angular Material",
+            "Bootstrap",
+            "Vercel"
+        ],
+        "repository": "https://gist.github.com/gopoma/b89a35a897e295398350383fca8f8e25"
+    },
+    {
         "title": "MessengerBoy",
         "banner": "./img/messengerboy.png",
         "description": "Consisted of a chat application for the TutoEasy Social Media.",
@@ -23,8 +48,27 @@
             "Fetch API",
             "Vercel"
         ],
-        "link": "https://messenger-boy.vercel.app",
-        "repository": "https://github.com/gopoma/chat-app-api"
+        "repository": "https://gist.github.com/gopoma/0d576804fd2766ee8cbe838341118cc0"
+    },
+    {
+        "title": "Exercise Tracker",
+        "banner": "./img/exercise_tracker.png",
+        "description": "Consisted of a tracker registry application.",
+        "skills": [
+            "Service-Oriented Architecture (SOA)",
+            "NodeJS",
+            "TypeScript",
+            "Express",
+            "MongoDB",
+            "Prisma",
+            "Ajv",
+            "TDD",
+            "Mocha",
+            "Chai.js",
+            "SuperTest",
+            "Render"
+        ],
+        "repository": "https://github.com/gopoma/exercise-tracker"
     },
     {
         "title": "drugstore-app",
@@ -47,13 +91,12 @@
             "SweetAlert2",
             "Vercel"
         ],
-        "link": "https://drugstore-app-frontend.vercel.app",
         "repository": "https://github.com/gopoma/proyecto-final-pweb-2"
     },
     {
         "title": "TheCubicle",
         "banner": "./img/thecubicle.png",
-        "description": "Consisted of an Cube Ecommerce application inspired by TheCubicle",
+        "description": "Consisted of an Cube Ecommerce application inspired by TheCubicle.",
         "skills": [
             "Service-Oriented Architecture (SOA)",
             "NodeJS",
@@ -72,13 +115,12 @@
             "Fetch API",
             "Vercel"
         ],
-        "link": "https://cube-ecommerce-frontend.vercel.app",
         "repository": "https://github.com/gopoma/Cube-Ecommerce"
     },
     {
         "title": "Geometry Dash Browser",
         "banner": "./img/geometry_dash_api.png",
-        "description": "Consisted of consuming data from the Geometry Dash API through Fetch API and showing the results to user in a friendly interface",
+        "description": "Consisted of consuming data from the Geometry Dash API through Fetch API and showing the results to user in a friendly interface.",
         "skills": [
             "HTML",
             "CSS",
@@ -86,32 +128,7 @@
             "JavaScript",
             "Fetch API"
         ],
-        "link": "https://gd-browser-beta.vercel.app/",
-        "repository": "https://github.com/GustavoEdu/Proyecto-3-Front-End-Fundamentals"
-    },
-    {
-        "title": "Sideral Carrion's Landing Page",
-        "banner": "./img/sideral_carrion_university_landing_page.png",
-        "description": "Beautiful Landing Page",
-        "skills": [
-            "HTML",
-            "CSS",
-            "CSS's OOCSS Methology"
-        ],
-        "link": "https://usideralcarrion.vercel.app/",
-        "repository": "https://github.com/GustavoEdu/Proyecto-2-Front-End-Fundamentals"
-    },
-    {
-        "title": "Ta-te-tsi Game",
-        "banner": "./img/tic_tac_toe.png",
-        "description": "Tic Tac Toe Game",
-        "skills": [
-            "HTML",
-            "CSS",
-            "CSS's BEM Methodology",
-            "JavaScript"
-        ],
-        "link": "https://tictactoe-taupe.vercel.app/",
-        "repository": "https://github.com/GustavoEdu/Proyecto-3-Coding-Fundamentals-"
+        "link": "https://gd-browser-beta.vercel.app",
+        "repository": "https://github.com/gopoma/geometry-dash-browser"
     }
 ]

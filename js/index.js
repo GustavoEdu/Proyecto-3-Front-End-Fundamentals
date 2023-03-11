@@ -28,6 +28,7 @@ const fillPersonalProyects = async function() {
             targettedNode.dataset.description = personalProyect.description;
             targettedNode.dataset.skills = JSON.stringify(personalProyect.skills);
             targettedNode.dataset.link = personalProyect.link ?? "";
+            targettedNode.dataset.video = personalProyect.video ?? "";
             targettedNode.dataset.repository = personalProyect.repository;
         });
     });
@@ -37,7 +38,7 @@ const personalProjectContent = document.getElementById("personalProjectContent")
 personalProyectsSection.addEventListener("click", evt => {
     if(!evt.target.classList.contains("project__img") && !evt.target.classList.contains("project__title-container") && !evt.target.classList.contains("project__title-wrapper") && !evt.target.classList.contains("project__title")) { return; }
     modal.classList.add("modal__content--show");
-    const {title, banner, description, skills, link, repository} = evt.target.dataset;
+    const {title, banner, description, skills, link, video, repository} = evt.target.dataset;
     let skillsContent = "<div class='personal-project__detail'>"; 
     JSON.parse(skills).forEach(skill => {skillsContent += `<p class="personal-project__skill">${skill}</p>`;});
     skillsContent += "</div>";
@@ -59,6 +60,11 @@ personalProyectsSection.addEventListener("click", evt => {
                 ${link && 
                     `<a class="personal-project__value personal-project__link" href="${link}" target="_blank">
                         <i class="icon icon--md icon--white fa-solid fa-link"></i>
+                    </a>`
+                }
+                ${video &&
+                    `<a class="personal-project__value personal-project__link" href="${video}" target="_blank">
+                        <i class="icon icon--md icon--white fa-solid fa-video"></i>
                     </a>`
                 }
                 <a class="personal-project__value personal-project__link" href="${repository}" target="_blank">

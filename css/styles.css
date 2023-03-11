@@ -75,6 +75,7 @@ body {
     display: flex;
     gap: 1.2rem;
     flex-direction: column;
+    align-items: center;
 }
 .hero__developer-presentation {
     font-size: 2.85em;
@@ -82,11 +83,27 @@ body {
     color: var(--just-white);
 }
 .hero__developer-scala {
-    font-size: var(--regular-font-size);
+    font-size: 1.75rem;
     text-align: center;
     color: var(--just-white);
+
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 20ch;
+
+    animation: typing 4s steps(20), blink .5s infinite step-end alternate;
+    overflow:hidden;
+}
+@keyframes typing {
+    from { width: 0; }
+}
+@keyframes blink {
+    50% { border-color: transparent; }
 }
 .hero__developer-photo-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,8 +117,10 @@ body {
 .about {
     padding: 2rem 0;
 }
-/* Skills-Section */
-.skills-section__title {
+.about-section {
+    padding-bottom: 4rem;
+}
+.about-section__title {
     margin-bottom: 1.2rem;
     max-width: 640px;
     margin-left: auto;
@@ -112,6 +131,54 @@ body {
     text-align: center;
     color: var(--just-white);
 }
+.about-section__container {
+    padding: 1.2rem;
+    display: flex;
+    gap: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-section__content {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.about-section__description {
+    font-size: var(--regular-font-size-font-size);
+    text-align: justify;
+    color: var(--just-white);
+}
+.about-section__cv-link {
+    width: max-content;
+    border-radius: 4px;
+    padding: 0.75rem 1.2rem;
+    background-color: var(--main-gray);
+    text-decoration: none;
+    color: var(--just-white);
+    font-size: var(--regular-font-size);
+    font-weight: bold;
+    transition: background 0.3s ease-out;
+}
+.about-section__cv-link:hover {
+    background-color: var(--medium-gray);
+    color: var(--just-black);
+}
+.about-section__social-media-container {
+    display: flex;
+    gap: 0.75rem;
+}
+.about-section__developer-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-section__developer-photo {
+    width: 20vw;
+    min-width: 300px;
+}
+/* Skills-Section */
 .skills-section__grid {
     display: grid;
     gap: 0.45rem;
@@ -362,6 +429,9 @@ body {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .about-section__container {
+        flex-direction: row;
     }
     .projects-section__grid {
         grid-template-columns: repeat(3, 1fr);

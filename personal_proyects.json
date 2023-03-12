@@ -69,6 +69,7 @@
             "SuperTest",
             "Render"
         ],
+        "link": "https://exercise-tracker-2fak.onrender.com",
         "repository": "https://github.com/gopoma/exercise-tracker"
     },
     {

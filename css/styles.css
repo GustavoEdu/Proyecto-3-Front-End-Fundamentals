@@ -48,21 +48,28 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    opacity: 0.60;
 }
 .navbar__links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     list-style: none;
 }
 .navbar__link {
-    font-size: 0.75em; 
+    width: 100%;
+    background-color: var(--main-gray);
+    text-align: center;
+    font-size: var(--regular-font-size); 
+    font-weight: bold;
     display: inline-block;
     padding: 0.45rem;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--just-white);
+    transition: background 0.3s ease-out;
+}
+.navbar__link:hover {
+    background-color: var(--soft-gray);
+    color: var(--just-black);
 }
 /* /Navbar */
 /* Hero */
@@ -293,6 +300,7 @@ body {
     font-size: var(--regular-font-size);
     text-transform: uppercase;
     background-color: var(--soft-gray);
+    cursor: pointer;
 }
 /* /Contact-Form */
 .contact__error-message {
@@ -416,6 +424,15 @@ body {
 }
 .icon--black {
     color: var(--just-black);
+}
+.skill-img {
+    width: 3.5em; 
+    height: 3.5em;
+}
+.img-icon {
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
 }
 /* /Icons */
 @media screen and (min-width: 680px) {

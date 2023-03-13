@@ -363,6 +363,7 @@ body {
     color: var(--just-white);
     background-color: rgba(255, 0, 0, 0.75);
     transition: color 0.3s ease-out;
+    cursor: pointer;
 }
 /* /Modal */
 /* Personal-Project */
@@ -461,9 +462,6 @@ body {
     }
     .modal__content {
         width: 50vw;
-    }
-    .modal__close {
-        cursor: default;
     }
     .modal__close:hover {
         background-color: rgba(255, 0, 0, 0.45);

@@ -282,7 +282,7 @@ body {
 }
 .contact__slogan {
     font-size: var(--regular-font-size);
-    color: var(--dark-gray);
+    color: var(--just-white);
 }
 /* Contact-Form */
 .contact-form {

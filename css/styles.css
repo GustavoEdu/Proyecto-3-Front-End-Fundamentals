@@ -27,6 +27,7 @@
     --soft-gray: #F1F1F1;
     --main-gray: #212121;
     --code-wrapper: var(--main-gray);
+    --small-font-size: 0.75em;
     --regular-font-size: 1.08em;
     --medium-font-size: 1.16em;
     --large-font-size: 2em;
@@ -58,10 +59,11 @@ body {
     width: 100%;
     background-color: var(--main-gray);
     text-align: center;
-    font-size: var(--regular-font-size); 
+    font-size: var(--small-font-size);
     font-weight: bold;
     display: inline-block;
-    padding: 0.45rem;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--just-white);
@@ -439,6 +441,11 @@ body {
 @media screen and (min-width: 680px) {
     .projects-section__grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .navbar__link {
+        padding-top: 0.60rem;
+        padding-bottom: 0.60rem;
+        font-size: var(--regular-font-size);
     }
 }
 @media screen and (min-width: 1024px) {

@@ -1,7 +1,7 @@
 [
     {
         "title": "drugstore-app",
-        "banner": "./img/drugstore_app.png ",
+        "banner": "./img/drugstore_app.jpg ",
         "description": "Developed an E-commerce with solid user authentication through email validation that implements Stripe's payment gateway, this was an extension of drugstore-app.",
         "skills": [
             "Service-Oriented Architecture (SOA)",
@@ -27,7 +27,7 @@
     },
     {
         "title": "MessengerBoy",
-        "banner": "./img/messengerboy.png",
+        "banner": "./img/messengerboy.jpg",
         "description": "Consisted of a chat application for the TutoEasy Social Media.",
         "skills": [
             "Service-Oriented Architecture (SOA)",
@@ -53,7 +53,7 @@
     },
     {
         "title": "Exercise Tracker",
-        "banner": "./img/exercise_tracker.png",
+        "banner": "./img/exercise_tracker.jpg",
         "description": "Consisted of a tracker registry application.",
         "skills": [
             "Service-Oriented Architecture (SOA)",
@@ -74,7 +74,7 @@
     },
     {
         "title": "drugstore-pweb2-app",
-        "banner": "./img/drugstore_pweb2_app.png",
+        "banner": "./img/drugstore_pweb2_app.jpg",
         "description": "Consisted of an inventory management application for a local drugstore.",
         "skills": [
             "Django",
@@ -98,7 +98,7 @@
     },
     {
         "title": "TheCubicle",
-        "banner": "./img/thecubicle.png",
+        "banner": "./img/thecubicle.jpg",
         "description": "Consisted of an Cube Ecommerce application inspired by TheCubicle.",
         "skills": [
             "Service-Oriented Architecture (SOA)",
@@ -122,7 +122,7 @@
     },
     {
         "title": "Geometry Dash Browser",
-        "banner": "./img/geometry_dash_api.png",
+        "banner": "./img/geometry_dash_api.jpg",
         "description": "Consisted of consuming data from the Geometry Dash API through Fetch API and showing the results to user in a friendly interface.",
         "skills": [
             "HTML",

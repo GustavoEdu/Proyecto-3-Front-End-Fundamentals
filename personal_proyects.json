@@ -1,7 +1,7 @@
 [
     {
-        "title": "ChapiPharm",
-        "banner": "./img/chapipharm.png ",
+        "title": "drugstore-app",
+        "banner": "./img/drugstore_app.png ",
         "description": "Developed an E-commerce with solid user authentication through email validation that implements Stripe's payment gateway, this was an extension of drugstore-app.",
         "skills": [
             "Service-Oriented Architecture (SOA)",
@@ -73,8 +73,8 @@
         "repository": "https://github.com/gopoma/exercise-tracker"
     },
     {
-        "title": "drugstore-app",
-        "banner": "./img/drugstore_app.png",
+        "title": "drugstore-pweb2-app",
+        "banner": "./img/drugstore_pweb2_app.png",
         "description": "Consisted of an inventory management application for a local drugstore.",
         "skills": [
             "Django",

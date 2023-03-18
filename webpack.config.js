@@ -11,7 +11,7 @@ module.exports = (env, { mode }) => {
         entry: "./src/index.js",
         output: {
             filename: production ? "[name].[contenthash].js" : "index.js",
-            path: path.join(__dirname, "build"),
+            path: path.join(__dirname, "public"),
             assetModuleFilename: "assets/[name][ext]"
         },
         optimization:{
@@ -31,7 +31,7 @@ module.exports = (env, { mode }) => {
             new HtmlWebpackPlugin({ template: "./src/index.html" }),
             new CopyPlugin({
                 patterns: [
-                  { from: "public", to: "." },
+                  { from: "static", to: "." },
                   { from: "./personal_proyects.json", to: "." }
                 ]
             })

@@ -1,0 +1,36 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Website - Frontend Development with HTML, CSS and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack-dev-server --mode=development",
+    "build": "npx webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopoma/personal-portfolio.git"
+  },
+  "keywords": [],
+  "author": "gopoma",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gopoma/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/gopoma/personal-portfolio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "postcss-loader": "^7.1.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.0"
+  }
+}

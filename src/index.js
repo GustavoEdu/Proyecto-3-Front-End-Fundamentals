@@ -1,3 +1,5 @@
+import "./css/styles.css";
+
 /* Modal */
 const modal = document.getElementById("modal");
 modal.addEventListener("click", evt => {
